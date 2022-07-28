@@ -35,36 +35,24 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0  m-auto">
                         <li class="nav-item px-3">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" target="_blank" href="index.html">Home</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" target="_blank" href="#courses">Courses</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li> -->
+
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Deals</a>
+                            <a class="nav-link" href="#deals" tabindex="-1" target="_blank"
+                                aria-disabled="true">Deals</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link " href="#">Sucess</a>
+                            <a class="nav-link " target="_blank" href="#sucess">Sucess</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" target="_blank" href="#about">About</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" target="_blank" href="form.html">Register</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -133,7 +121,7 @@
     </header>
     <main>
         <!-- course section -->
-        <section class="mb-5">
+        <section id="courses" class="mb-5">
             <div class="container mt-5 ">
                 <div class="row">
                     <div class="col-12 p-0">
@@ -253,7 +241,7 @@
 
         <!-- ready to join section start-->
 
-        <section>
+        <section id="deals">
             <div class="container  mb-5">
                 <div class="row bg-info rounded p-5">
                     <div class="col col-lg-6 col-md-12 col-sm-12 col-12 p-2">
@@ -276,7 +264,7 @@
 
         <!-- Student story section start -->
 
-        <section class="mb-5">
+        <section id="Sucess" class="mb-5">
             <div class="container">
                 <h1 class="w-100 h-100 text-md-start text-lg-start text-center">Meet Our Successfull Students</h1>
                 <p class="text-secondary w-lg-25 w-md-75 w-sm-100 w-100 h-100 text-md-start text-lg-start text-center">
@@ -322,6 +310,9 @@
                     </div>
 
                 </div>
+                <div class="text-center mt-4 ">
+                    <button class="btn bg-info text-white fw-bold text-center px-3" type="submit">View All</button>
+                </div>
             </div>
         </section>
 
@@ -329,7 +320,7 @@
 
         <!-- Question section start -->
 
-        <section>
+        <section id="about">
             <div class=" container accordion " id="faqlist">
                 <h1 class="text-center">Frequently Asked Questions</h1>
                 <p class="text-center text-secondary mx-auto px-5">It is a long established fact that a reader will be
